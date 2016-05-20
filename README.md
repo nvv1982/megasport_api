@@ -7,10 +7,10 @@
 <h4>Методы</h4>
 <ul> 
 <li> Получить список заказов (GET) url: http://localhost:3000/orders.json </li>
-<li> Получить  заказо со строками (GET) url: http://localhost:3000/orders/[id].json </li>
+<li> Получить  заказо со строками (GET) url: http://localhost:3000/orders/[ordid].json </li>
 <li> Добавить заказ (POST) с параметрами url: http://localhost:3000/orders.json </li>
-<li> Обновить заказ (PUT) с параметрами url: http://localhost:3000/orders/[id].json </li>
-<li> Удалить зака (DELETE)  url: http://localhost:3000/orders/[id].json 
+<li> Обновить заказ (PUT) с параметрами url: http://localhost:3000/orders/[ordid].json </li>
+<li> Удалить зака (DELETE)  url: http://localhost:3000/orders/[ordid].json 
 </ul>
  
 <h4>Параметры orders.json</h4>
@@ -56,4 +56,48 @@
 	<li>refpost: ID из API НП</li>	
 </ul>
 
-<hr>
+<h2>Работа с заказами (строки)</h2>
+
+<h4>Методы</h4>
+<ul> 
+<li> Добавить строку заказа (POST) с параметрами url: http://localhost:3000/orderrows.json </li>
+<li> Обновить строку заказа (PUT) с параметрами url: http://localhost:3000/orderrows/[id].json </li>
+<li> Удалить строку зака (DELETE)  url: http://localhost:3000/orderrows/[id].json 
+</ul>
+ 
+<h4>Параметры orderrows.json</h4>
+<p>Параметры передаются в теле сообщения в формате JSON </p>
+<code>
+{
+	"ordid": 10,
+	"art": "ANT000001",
+	"cnt": 1,
+	"sizes": "XL",
+	"price": 400.0,
+	"model": "Кепка",
+	"section": "1",
+	"brand": "ANTA",
+	"img_url": "http://a.jpg",
+	"disc": 100.0,
+	"err": "",
+	"bonus_disc": 100.0,
+	"act_disc": 0.0
+}
+</code>
+
+<h4>Описение полей</h4>
+<ul>
+	<li>ordid: ID заказа</li>
+	<li>art:  Артикул товара</li>
+	<li>cnt: Количество</li>
+	<li>sizes: Размер</li>
+	<li>price: Цена к оплате 00.00</li>
+	<li>model: Модель</li>
+	<li>section: Секция</li>
+	<li>brand: Бренд</li>
+	<li>img_url: ссылка на товар</li>
+	<li>disc: Скидка 00.00</li>
+	<li>err: Ошибка (не обязательно)</li>
+	<li>bonus_disc: Скидка по бонусам (не обязательно) </li>
+	<li>act_disc: Скидка по акциям (не обязательно)</li>
+</ul>
