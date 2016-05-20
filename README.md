@@ -2,10 +2,12 @@
 
 <p>Вместо <b>localhost:3000</b> нужно указать реальный IP адрес и порт </p>
 <hr>
-<p>Для работы с заказами url: http://localhost:3000/orders.json </p>
+<h2>Работа с заказами (Шапка)</h2>
+
 <h4>Методы</h4>
 <ul> 
 <li> Получить список заказов (GET) url: http://localhost:3000/orders.json </li>
+<li> Получить  заказо со строками (GET) url: http://localhost:3000/orders/[id].json </li>
 <li> Добавить заказ (POST) с параметрами url: http://localhost:3000/orders.json </li>
 <li> Обновить заказ (PUT) с параметрами url: http://localhost:3000/orders/[id].json </li>
 <li> Удалить зака (DELETE)  url: http://localhost:3000/orders/[id].json 
@@ -53,3 +55,5 @@
 	<li>refcity: ID из API НП</li>
 	<li>refpost: ID из API НП</li>	
 </ul>
+
+<hr>
