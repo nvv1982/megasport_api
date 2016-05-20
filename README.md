@@ -3,9 +3,10 @@
 <p>Вместо <b>localhost:3000</b> нужно указать реальный IP адрес и порт </p>
 <hr>
 <p>Для работы с заказами url: http://localhost:3000/orders.json </p>
-<ul> Методы
-<li> Получить список заказов (GET)</li>
-<li> Добавить заказ (POST) с параметрами </li>
+<h4>Методы</h4>
+<ul> 
+<li> Получить список заказов (GET) url: http://localhost:3000/orders.json </li>
+<li> Добавить заказ (POST) с параметрами url: http://localhost:3000/orders.json </li>
 <li> Обновить заказ (PUT) с параметрами url: http://localhost:3000/orders/[id].json </li>
 <li> Удалить зака (DELETE)  url: http://localhost:3000/orders/[id].json 
 </ul>
@@ -32,3 +33,10 @@
 	"refpost": "s12"
 }
 </code>
+
+<h4>Описение полей</h4>
+<ul>
+	<li>ordid: 		ID заказа</li>
+	<li>name:		Имя клиента</li>
+	<li>surrname:	</li>	
+</ul>
