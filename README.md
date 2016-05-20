@@ -36,7 +36,20 @@
 
 <h4>Описение полей</h4>
 <ul>
-	<li>ordid: 		ID заказа</li>
-	<li>name:		Имя клиента</li>
-	<li>surrname:	</li>	
+	<li>ordid: ID заказа</li>
+	<li>name: Имя клиента</li>
+	<li>surrname: Фамилия клиента</li>
+	<li>complete: Статус выполнения заказа</li>
+	<li>totalprice: Сумма заказа 00.00</li>
+	<li>phone: Телефон</li>
+	<li>card: Номер ДК</li>
+	<li>paid: Флаг оплаты</li>
+	<li>dat: Дата DD.MM.YYYY HH:MI:SS</li>
+	<li>descr: Описание</li>
+	<li>err: Ошибка (не обязательно)</li>
+	<li>bonus_in: Начисленные бонусы (не обязательно) </li>
+	<li>bonus_out: Списанные бонусы (не обязательно)</li>
+	<li>email: e-mail</li>
+	<li>refcity: ID из API НП</li>
+	<li>refpost: ID из API НП</li>	
 </ul>
