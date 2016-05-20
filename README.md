@@ -1,3 +1,5 @@
 # megasport_api 1
 
-sdsdd
+Описание API 
+Вместо localhost нужно указать реальный IP адрес 
+
