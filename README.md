@@ -33,6 +33,19 @@
 	"email": "test@test.ua",
 	"refcity": "s1",
 	"refpost": "s12"
+	"orderrows": [
+		{
+			"art": "ANT000001",
+			"cnt": 1,
+			"sizes": "XS",
+			"price": 200,
+			"model": "M1",
+			"section": "S1",
+			"brand": "ANTA",
+			"img_url": "https://www.google.com.ua/search?sourceid=chrome-psyapi2&ion=1",
+			"disc": 10.10,
+		}
+		]
 }
 </code>
 
