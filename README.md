@@ -7,11 +7,12 @@
 <h4>Методы</h4>
 <ul> 
 <li> Получить список заказов (GET) url: http://localhost:3000/orders.json </li>
-<li> Получить  заказо со строками (GET) url: http://localhost:3000/orders/[ordid].json </li>
+<li> Получить  заказо со строками (GET) url: http://localhost:3000/orders/[id].json </li>
 <li> Добавить заказ (POST) с параметрами url: http://localhost:3000/orders.json </li>
-<li> Обновить заказ (PUT) с параметрами url: http://localhost:3000/orders/[ordid].json </li>
-<li> Удалить зака (DELETE)  url: http://localhost:3000/orders/[ordid].json 
+<li> Обновить заказ (PUT) с параметрами url: http://localhost:3000/orders/[id].json </li>
+<li> Удалить зака (DELETE)  url: http://localhost:3000/orders/[id].json 
 </ul>
+ 
  
 <h4>Параметры orders.json</h4>
 <p>Параметры передаются в теле сообщения в формате JSON </p>
@@ -51,7 +52,7 @@
 
 <h4>Описение полей</h4>
 <ul>
-	<li>ordid: ID заказа</li>
+	<li>ordid: Номер заказа с сайта (не обязательно)</li>
 	<li>name: Имя клиента</li>
 	<li>surrname: Фамилия клиента</li>
 	<li>complete: Статус выполнения заказа</li>
@@ -100,7 +101,7 @@
 
 <h4>Описение полей</h4>
 <ul>
-	<li>ordid: ID заказа</li>
+	<li>ordid: ID заказа (из базы). Внимание !!! не путать с номером заказа !</li>
 	<li>art:  Артикул товара</li>
 	<li>cnt: Количество</li>
 	<li>sizes: Размер</li>
