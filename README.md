@@ -105,7 +105,7 @@
 	<li>art:  Артикул товара</li>
 	<li>cnt: Количество</li>
 	<li>sizes: Размер</li>
-	<li>price: Цена к оплате 00.00</li>
+	<li>price: <b>Цена без скидки  00.00 </b></li>
 	<li>model: Модель</li>
 	<li>section: Секция</li>
 	<li>brand: Бренд</li>
