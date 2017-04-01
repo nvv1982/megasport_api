@@ -33,7 +33,7 @@
 	"bonus_out": 100,
 	"email": "test@test.ua",
 	"refcity": "s1",
-	"refpost": "s12"
+	"refpost": "s12",
 	"orderrows": [
 		{
 			"art": "ANT000001",
@@ -44,7 +44,7 @@
 			"section": "S1",
 			"brand": "ANTA",
 			"img_url": "https://www.google.com.ua/search?sourceid=chrome-psyapi2&ion=1",
-			"disc": 10.10,
+			"disc": 10.10
 		}
 		]
 }
